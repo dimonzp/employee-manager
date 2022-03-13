@@ -1,0 +1,19 @@
+.create-new-box {
+  padding: 30px 20px 0 20px;
+  > h1 {
+    text-align: center;
+  }
+  .ant-form {
+    margin: 0 auto;
+    .ant-form-item {
+      display: flex;
+      justify-content: space-between;
+      .ant-form-item-control {
+        max-width: 80%;
+        @media only screen and (max-width: 575px) {
+          max-width: 97%;
+        }
+      }
+    }
+  }
+}

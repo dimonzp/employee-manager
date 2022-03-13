@@ -1,0 +1,13 @@
+.employees-box {
+  height: 100%;
+  .ant-card {
+    margin-top: 15px;
+    &.removed {
+      background: rgba(255, 71, 71, 0.7);
+    }
+  }
+  .ant-pagination {
+    text-align: center;
+    line-height: 3.5;
+  }
+}

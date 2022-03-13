@@ -1,0 +1,40 @@
+.login,
+.registrate {
+  padding: 30px 20px 0 20px;
+  > h1 {
+    text-align: center;
+  }
+  .ant-form {
+    width: 300px;
+    margin: 0 auto;
+    > :last-child {
+      .ant-form-item-control-input-content {
+        > span {
+          padding: 0 10px;
+        }
+      }
+    }
+  }
+}
+.registrate .ant-form {
+  .ant-form-item {
+    display: flex;
+    justify-content: space-between;
+    .ant-form-item-control {
+      max-width: 214px;
+      @media only screen and (max-width: 575px) {
+        max-width: 100%;
+      }
+    }
+  }
+  > :last-child {
+    .ant-form-item-control {
+      max-width: 100%;
+    }
+    .ant-form-item-control-input-content {
+      > span {
+        padding: 0 10px;
+      }
+    }
+  }
+}
